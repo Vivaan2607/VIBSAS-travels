@@ -1,0 +1,78 @@
+.container{
+  background-color: #573A66;
+
+  padding:100px 20px 100px 30px;
+
+  margin-top:100px;
+
+
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h3{
+
+  font-family: serif;
+
+  font-style: italic;
+  color: #fff;
+
+  margin-bottom: 50px;
+
+}
+
+#yourmessage{
+
+  width: 90%;
+  height: 120px;
+}
+
+#exampleFormControlSelect2{
+
+  width: 80%;
+}
+
+#exampleFormControlSelect1{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.forms{
+
+  width:80%;
+
+  margin: 10px 0 10px 0;
+
+}
+
+#inputEmail4{
+
+  width:78%;
+  margin-top: 10px;
+}
+
+#submit{
+
+
+  margin-top: 50px;
+
+}
+
+.button{
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 20px;
+
+}
+
+.img{
+
+  width: 100%;
+  height: 80%;
+}
