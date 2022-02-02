@@ -1,0 +1,218 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+/* Colors */
+:root{
+    --mypurple: #573A66;
+    --mygreen: #283A2C;
+    --myblack: #1C1C1E;
+    --white: #ffff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+/* Body */
+body{
+    font-family: 'Crimson Pro', serif;
+}
+/* Navbar */
+
+/* Title Page */
+/* -------------------------------------------------------------------------- */
+
+
+/* Why Vibsas */
+#why-vibsas-section{
+    background-color: var(--mygreen);
+    color: var(--white);
+    height: auto;
+}
+.why-vibsas-header{
+    text-align: center;
+    padding: 80px 0 0;
+}
+.why-vibsas-small-heading{
+    font-size: 1.0rem;
+    font-weight: 100;
+    letter-spacing: 0.065em;
+}  
+.why-vibsas-big-heading{
+    font-size: 4rem;
+}
+.why-vibsas-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.why-vibsas-images{
+    position: relative;
+    width: 100vw;
+    margin: 5vh auto 0;
+}
+.big-image, .small-image{
+    position: relative;
+}
+.small-image{
+    top: 27vh;
+    left: 5vw;
+    max-width: 30vw;
+    transform: rotate(1.5deg);
+}
+.big-image{
+    left: 15vw;
+    max-width: 50vw;
+}
+.why-vibsas-para{
+    padding: 10rem 2rem 0;
+    font-size: 1.25rem;
+    order: 1;
+}
+p.top-para{
+    font-size: 1.5rem;
+}
+#why-vibsas-section ul{
+    list-style: none;
+    padding: 0;
+}
+.why-vibsas-list{
+    font-size: 1.25rem;
+    order: 2;
+    padding: 1rem;
+}
+.why-vibsas-list-item{
+    margin: 0 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.list-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 1rem 1rem 0;
+}
+.list-image{
+    padding: 2rem 1rem 1rem 0;
+    width: fit-content;
+}
+
+
+/* For screens more than 1024px */
+@media screen and (min-width: 1023px) {
+    .why-vibsas-content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 0 0 20rem 0;
+        margin: 0 5vw 0;
+    }
+    .why-vibsas-list{
+        position: relative;
+        font-size: 1.25rem;
+    }
+    .why-vibsas-list-item{
+        text-align: center;
+        display: block;
+        position: relative;
+        max-width: 300px;
+    }
+    .list-image{
+        padding: 0;
+    }
+    .list-heading{
+        padding: 1rem;
+    }
+    .list-item-1{
+        top: 25vh;
+    }
+    .list-item-2{
+        top: 35vh;
+        left: 15vw;
+    }
+    .list-item-3{
+        top: 25vh;
+        left: 35vw;
+    }
+    .why-vibsas-images{
+        margin: 1rem;
+    }
+    .big-image{
+        left: 0vw;
+        max-width: 40vw;
+    }
+    .small-image{
+        top: -23vh;
+        left: 16vw;
+        max-width: 20vw;
+    }
+    .why-vibsas-para{
+        margin: 0 0 0 2vw;
+        padding: 15vh 0 0 0;
+        order: 0;
+        max-width: 25vw;
+    }
+    .why-vibsas-para p{
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 300;
+        margin: 0 0 3rem 0;
+    }
+    p.top-para{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+/* For screens more than 1430px */
+@media screen and (min-width: 1430px){
+    .big-image{
+        left: 10vw;
+        top: 0;
+    }
+    .small-image{
+        top: 18vh;
+        left: 2vw;
+    }
+}
+
+/* For screens more than 2550px */
+@media screen and (min-width: 2550px){
+    .why-vibsas-content{
+        max-width: 60vw;
+        margin: auto;
+    }
+    .small-image{
+        top: 10vh;
+        left: 5vw;
+    }
+    .list-item-1{
+        top: 10vh;
+        left: 7vw;
+    }
+    .list-item-2{
+        top: 12vh;
+        left: 15vw;
+    }
+    .list-item-3{
+        top: 5vh;
+        left: 25vw;
+    }
+}
+/*--------------------------------------------------------------------------- */
+
+
+
+/* Travel Styles */
+
+/*--------------------------------------------------------------------------- */
+/* Blogs */
+
+/*--------------------------------------------------------------------------- */
+/* Testimonials */
+
+/*--------------------------------------------------------------------------- */
+/* Footer */
+
+/*--------------------------------------------------------------------------- */
