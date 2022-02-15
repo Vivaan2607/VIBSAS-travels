@@ -75,6 +75,7 @@ p.top-para{
 #why-vibsas-section ul{
     list-style: none;
     padding: 0;
+    margin: 0 2rem 0;
 }
 .why-vibsas-list{
     font-size: 1rem;
@@ -85,7 +86,7 @@ p.top-para{
     margin: 0 0 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
 }
 .list-heading{
@@ -179,11 +180,17 @@ p.top-para{
     }
 }
 
-/* For screens more than 2550px */
-@media screen and (min-width: 2550px){
+/* For screens more than 1750px */
+@media screen and (min-width: 1750px){
     .why-vibsas-content{
-        max-width: 60vw;
         margin: auto;
+    }
+    .small-image {
+        left: 0;
+        top: 20vh;
+    }
+    .list-item-3 {
+        top: 15vh;
     }
 }
 /*--------------------------------------------------------------------------- */
