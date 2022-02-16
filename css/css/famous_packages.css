@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.section3{
+    margin-top: 8rem;
+    margin-left: 6rem;
+    width: 89%;
+    position: relative;
+    margin-bottom: 10rem;
+}
+.heading span{
+    font-size: 4rem;
+}
+.row1{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+.card1{
+    position: relative;
+    background-color: yellow;
+    width: 60%;
+    height: 350px;
+}
+.card2{
+    position: relative;
+    background-color: blue;
+    width: 33%;
+    left: 20px;
+    height: 350px;
+
+}
+.card1 img{
+    height: 350px ;
+    width: 100%;
+}
+.text1{
+     font-size: 20px;
+     position: absolute;
+     bottom: 5%;
+     left: 40px;
+     color: white;
+     width: 100%;
+
+     
+}
+.price{
+    background-color: blue;
+    width: 21%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+.location{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.days{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.card2 img{
+       height: 350px;
+       width: 100%;
+}
+.text2{
+    font-size: 20px;
+     position: absolute;
+     bottom: 5%;
+     left: 40px;
+     color: white;
+     width: 80%;
+}
+.price2{
+    background-color: orange;
+    width: 48%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+.location2{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.days2{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+
+
+
+.row2{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+.card3{
+    position: relative;
+    background-color: blue;
+    width: 33%;
+    height: 350px;
+}
+.card4{
+    position: relative;
+    background-color: yellow;
+    width: 60%;
+    left: 20px;
+    height: 350px;
+
+}
+.card3 img{
+    height: 350px ;
+    width: 100%;
+}
+.text3{
+     font-size: 20px;
+     position: absolute;
+     bottom: 5%;
+     left: 40px;
+     color: white;
+     width: 100%;
+
+     
+}
+.price3{
+    background-color: green;
+    width: 39%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+.location3{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.days3{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.card4 img{
+       height: 350px;
+       width: 100%;
+}
+.text4{
+    font-size: 20px;
+     position: absolute;
+     bottom: 5%;
+     left: 40px;
+     color: white;
+     width: 80%;
+}
+.price4{
+    background-color: lightseagreen;
+    width: 26%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+.location4{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.days4{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+
+
+
+.row3{
+    width: 100%;
+    margin-top: 25px;
+     display: flex;
+ }
+ .card5{
+   position: relative;
+   background-color: yellow;
+   width: 60%;
+   height: 350px;
+ }
+  .card6{
+        position: relative;
+        background-color: blue;
+        width: 33%;
+        left: 20px;
+        height: 350px;
+    
+    }
+    .card5 img{
+        height: 350px ;
+        width: 100%;
+    }
+    .text5{
+         font-size: 20px;
+         position: absolute;
+         bottom: 5%;
+         left: 40px;
+         color: white;
+         width: 100%; 
+    }
+    .price5{
+        background-color: brown;
+        width: 21%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+    }
+    .location5{
+        font-weight: bolder;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .days5{
+        font-size: 25px;
+        font-weight: lighter;
+        margin-top: 15px;
+    }
+    .card6 img{
+           height: 350px;
+           width: 100%;
+    }
+    .text6{
+        font-size: 20px;
+         position: absolute;
+         bottom: 5%;
+         left: 40px;
+         color: white;
+         width: 80%;
+    }
+    .price6{
+        background-color: plum;
+        width: 48%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+    }
+    .location6{
+        font-weight: bolder;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .days6{
+        font-size: 25px;
+        font-weight: lighter;
+        margin-top: 15px;
+    }
+    

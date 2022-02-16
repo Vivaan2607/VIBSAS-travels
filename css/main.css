@@ -204,12 +204,12 @@ border-radius: 10px;
     padding: 80px 0 0;
 }
 .why-vibsas-small-heading{
-    font-size: 1.0rem;
+    font-size: 1.25rem;
     font-weight: 100;
     letter-spacing: 0.065em;
 }  
 .why-vibsas-big-heading{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .why-vibsas-content{
     display: flex;
@@ -218,7 +218,7 @@ border-radius: 10px;
 }
 .why-vibsas-images{
     position: relative;
-    width: 100vw;
+    max-width: 100vw;
     margin: 5vh auto 0;
 }
 .big-image, .small-image{
@@ -226,12 +226,12 @@ border-radius: 10px;
 }
 .small-image{
     top: 27vh;
-    left: 5vw;
+    left: 0vw;
     max-width: 30vw;
     transform: rotate(1.5deg);
 }
 .big-image{
-    left: 15vw;
+    left: 10vw;
     max-width: 50vw;
 }
 .why-vibsas-para{
@@ -245,9 +245,10 @@ p.top-para{
 #why-vibsas-section ul{
     list-style: none;
     padding: 0;
+    margin: 0 2rem 0;
 }
 .why-vibsas-list{
-    font-size: 1.25rem;
+    font-size: 1rem;
     order: 2;
     padding: 1rem;
 }
@@ -255,11 +256,11 @@ p.top-para{
     margin: 0 0 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
 }
 .list-heading{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
     padding: 1rem 1rem 1rem 0;
 }
@@ -275,12 +276,12 @@ p.top-para{
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        padding: 0 0 20rem 0;
-        margin: 0 5vw 0;
+        padding: 0 0 5rem 0;
+        margin: 5vh 5vw 0;
     }
     .why-vibsas-list{
         position: relative;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .why-vibsas-list-item{
         text-align: center;
@@ -298,36 +299,36 @@ p.top-para{
         top: 25vh;
     }
     .list-item-2{
-        top: 35vh;
-        left: 15vw;
+        top: 30vh;
+        left: 9vw;
     }
     .list-item-3{
-        top: 25vh;
-        left: 35vw;
+        top: 18vh;
+        left: 28vw;
     }
     .why-vibsas-images{
         margin: 1rem;
     }
     .big-image{
-        left: 0vw;
+        left: 2vw;
         max-width: 40vw;
     }
     .small-image{
-        top: -23vh;
-        left: 16vw;
+        top: -22vh;
+        left: 20vw;
         max-width: 20vw;
     }
     .why-vibsas-para{
         margin: 0 0 0 2vw;
         padding: 15vh 0 0 0;
         order: 0;
-        max-width: 25vw;
+        max-width: 30vw;
     }
     .why-vibsas-para p{
         font-size: 1.25rem;
         line-height: 1.5;
         font-weight: 300;
-        margin: 0 0 3rem 0;
+        margin: 0 0 3rem 5rem;
     }
     p.top-para{
         font-size: 1.5rem;
@@ -338,36 +339,28 @@ p.top-para{
 /* For screens more than 1430px */
 @media screen and (min-width: 1430px){
     .big-image{
-        left: 10vw;
-        top: 0;
+        left: 5vw;
+        top: 2vh;
     }
-    .small-image{
-        top: 18vh;
-        left: 2vw;
+    .why-vibsas-para p{
+        font-size: 1.5rem;
+    }
+    p.top-para{
+        font-size: 2rem;
     }
 }
 
-/* For screens more than 2550px */
-@media screen and (min-width: 2550px){
+/* For screens more than 1750px */
+@media screen and (min-width: 1750px){
     .why-vibsas-content{
-        max-width: 60vw;
         margin: auto;
     }
-    .small-image{
-        top: 10vh;
-        left: 5vw;
+    .small-image {
+        left: 0;
+        top: 20vh;
     }
-    .list-item-1{
-        top: 10vh;
-        left: 7vw;
-    }
-    .list-item-2{
-        top: 12vh;
-        left: 15vw;
-    }
-    .list-item-3{
-        top: 5vh;
-        left: 25vw;
+    .list-item-3 {
+        top: 15vh;
     }
 }
 /*--------------------------------------------------------------------------- */
