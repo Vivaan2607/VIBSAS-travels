@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/france.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Accomodation</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/scotland.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Accomodation</title>
+</head>
+<body>
+    <div class="media">
+        <img class="img0" src="../images/flow.jpg"> 
+        <img class="img1" src="../images/cafe.jfif">
+        <h5>.</h5>
+        </div>
+        <div class="a">
+        <button class="accordion">&nbsp;&nbsp;INTRODUCTION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>France , officially the French Republic , is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and several islands in Oceania and the Indian Ocean. Due to its several coastal territories, France has the largest exclusive economic zone in the world.</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;THINGS TO DO AND SEE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>With the City of Lights there are so many fantastic things to see and do. To truly experience France means going beyond the standard tourist activities and sights as you venture into the French countryside. Those who travel beyond Paris may be surprised to find beautiful, pastoral farmland; rugged northern coastlines; spectacular wine-country; soaring Alps; and a pastel-painted southern coast. Explore museums, castles, chateaux, or Roman-era ruins while you’re there, and fully appreciate everything this country has to offer.</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;TRANSPORTATION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>The whole of France is available to travelers by rail or by road. Trains are available to take you to nearly every small village, medium-sized town, and large city in the whole of the country. Renting a car can be advisable if you have special needs or if you require greater flexibility than the French rail system can deliver, but it is rarely necessary for a vacation. Of course, TravelStore can arrange for your rail tickets in advance, as part of your trip arrangements, as well as private car and driver to pre-arrange airport transfers, or a day of touring in the country or city with a qualified and knowledgeable guide who can enhance your experience.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;WEATHER & CLIMATE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>France experiences the standard four seasons that most North Americans are familiar with. It snows in the northern and more mountainous parts of the country in the winter, rains everywhere but the south in the spring and fall, and is sunny and warm during the summer. The temperatures inland of the Cote d’Azur, or French Riviera, can be very high in the summer months, however, and along the Northern coast, summer temperatures can be surprisingly low. So depending on your itinerary, pack for the weather that you’re likely to encounter.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;CUISINE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>France is a country near obsessed with the quality of the food and drink it consumes, with the art it views, and in general, with the culture that is, well, French. To experience France is to immerse yourself in the terroir of the place. Tour the vineyard; taste the wine; buy the cheese direct from the purveyor at the open air market. Enjoy the party-like atmosphere of the bistro, the calm sophistication of the café tabac, or the sidewalk café.</p>
+        </div>
+        </div>
+    
+    <div class="imag">
+        <img class="hotel1" src="../images/Radisson-Blu-eiffel.jpg">
+        <img class="hotel2" src="../images/carette-paris-breakfast-chocolate.jpg">
+        <h6 class="top">.</h6>
+    </div>
+    <div class="head">
+    <h1 class="resorts">Resorts & Hotels in France</h1>
+    
+    <p class="franceinfo">France has abundant accommodations in just about every price range. The South of France is home to many beach-facing or beachfront hotels, and Paris is home to some of the best, most luxurious hotels anywhere in the world. At more than two dozen of our hand-picked hotels and resorts, we extend special amenities to travelers, including:</p>
+</div>
+ <h6 class="bardecor">.</h6>
+ <div class="text">
+ <h5 class="nop">PARIS</h5 >
+ <h2 class="noh">Le Meurice&nbsp;<i class="fa fa-arrow-right"></i></h2>
+ <p>Le Meurice has held sway as the jewel in the crown of French luxury hotels since 1835.</p>
+ <h5 class="nop">PAYS DE LOIRE</h5 >
+<h2 class="noh">Chateau de La Barre&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>Enjoy the hospitality of Count & Countess de Vanssay at their 100-acre family estate.</p>
+<h5 class="nop">SAINT-TROPEZ</h5>
+<h2 class="noh">Byblos Saint-Tropez&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>Designed as an authentic Mediterranean village, close to Pampelonne beach.</p>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
+</body>
+</html>
