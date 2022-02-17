@@ -18,14 +18,13 @@ body{
     font-family: 'Crimson Pro', serif;
 }
 /* Navbar */
-.collapse{
+/* .collapse{
     margin-left: 18%;
     margin-top: 2%;
-
-}
+} */
 
 .navbar-brand{
-    margin-top: 2%; 
+    margin: 0 0 0 8%; 
 }
 .nav-item{
     
@@ -37,7 +36,7 @@ body{
 }
 .nav-link{
     color:rgb(247, 247, 252)!important;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.25rem;
 }
 .nav-link {
@@ -150,30 +149,36 @@ border-radius: 10px;
 
 
 .landing{
-    background-image: url("../images/hector-falcon-ZJ9POJfmfL4-unsplash.jpg");
+    background: radial-gradient( rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0) ), url("../images/hector-falcon-ZJ9POJfmfL4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 50%;
     margin: 0;
     }
 
 .tagline{
     text-align: center;
-    padding-top: 5%;
-    color:rgb(126, 5, 106);
-    font-weight: 700;
-    font-size: 2rem;
-   
-
+    padding-top: 2%;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 8% 0 2% 0;
 }
 .main{
-    font-family: 'Satisfy', cursive;
-    font-size: 4rem;
-    font-weight: 500;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.375rem;
     color: #faf5f8;
-    
+    text-align: center;
     padding: 7%;
-    padding-top:4%;
+    padding-top:0%;
     padding-bottom: 15rem;
+    max-width: 60vw;
+    margin: 0 auto 0;
+}
+.content {
+    min-height: 120vh;
 }
 
 @media(max-width :992px){
@@ -184,12 +189,12 @@ border-radius: 10px;
   
     .main{
     font-size:3rem;
-    text-align: center;
-    }
-    .landing{
-        height: 700px;
-    }
+    }   
 }
+
+
+
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -279,7 +284,7 @@ p.top-para{
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        padding: 0 0 5rem 0;
+        padding: 0 0 10rem 0;
         margin: 5vh 5vw 0;
     }
     .why-vibsas-list{
