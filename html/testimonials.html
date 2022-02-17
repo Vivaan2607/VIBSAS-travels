@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/testimonials.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+    <title>Testimonials</title>
+</head>
+<body>
+   <section>
+       <div class="swiper mySwiper container">
+         <div class="swiper-wrapper content">
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                   <img src="../images/p1.jpg">
+               </div>
+               <div class="name">
+                
+                   <span id=n>Emily Patt</span>
+                
+               </div>
+               <div class="rating">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+               </div>
+               <div class="co"><p>The experience with Vibss world was truly awesome..!!I would definitely recommend it to everyone.Hope to travel with you again!</p></div>
+               
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                  <img src="../images/p4.jfif">
+              </div>
+              <div class="name">
+               
+                  <span id=n>Rohan Rao</span>
+               
+              </div>
+              <div class="rating">
+               <i class="fa fa-star checked"></i>
+               <i class="fa fa-star checked"></i>
+               <i class="fa fa-star checked"></i>
+               <i class="fa fa-star checked"></i>
+               <i class="fa fa-star checked"></i>
+              </div>
+              <div class="co"><p> Amazing Handling of Travellers,detailed travelling sight coverage ands good hospitality.<br>KEEP UP THE GOOD WORK</p></div>
+              
+           </div>
+       </div>
+    <div class="swiper-slide card">
+        <div class="card-content">
+          <div class="image">
+              <img src="../images/p2.jpg">
+          </div>
+          <div class="name">
+           
+              <span id=n>Harry Potts</span>
+           
+          </div>
+          <div class="rating">
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+           <i class="fa fa-star checked"></i>
+          </div>
+          <div class="co"><span> I had an  unforgettable experience…have brought back home wonderful memories…the tour managers were very helpful…thank you Vibss world</span></div>
+          
+       </div>
+   </div>
+   <div class="swiper-slide card">
+    <div class="card-content">
+      <div class="image">
+          <img src="../images/p3.png">
+      </div>
+      <div class="name">
+       
+          <span id=n>Ron Weasel</span>
+       
+      </div>
+      <div class="rating">
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star"></i>
+      </div>
+      <div class="co"><p> Thank you Vibss world for giving us the best experience and the best memories,during our tour. We wish to travel with you time and again..</p></div>
+      
+   </div>
+</div>
+<div class="swiper-slide card">
+    <div class="card-content">
+      <div class="image">
+          <img src="../images/p5.jpg">
+      </div>
+      <div class="name">
+       
+          <span id=n>Leena Singh</span>
+       
+      </div>
+      <div class="rating">
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star"></i>
+      </div>
+      <div class="co"><p>Tour was very good we enjoyed a lot,Vibss world offers good service at affordable prices.Thank you from the bottom of my heart</p></div>
+      
+   </div>
+</div>
+<div class="swiper-slide card">
+    <div class="card-content">
+      <div class="image">
+          <img src="../images/p6.png">
+      </div>
+      <div class="name">
+       
+          <span id=n>Caroline Yu</span>
+       
+      </div>
+      <div class="rating">
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+       <i class="fa fa-star checked"></i>
+      </div>
+      <div class="co"><p>I take this opportunity to Thank You from the bottom of my heart for the formidable experience. My Shimla trip was pleasant due to a well planned schedule </p></div>
+      
+   </div>
+</div>
+    </div>
+</div>
+
+<div class="swiper-button-next" id="button"></div>
+<div class="swiper-button-prev" id="button"></div>
+<div class="swiper-pagination"></div>
+   </section> 
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        
+        breakpoints:{
+            200:{
+                slidesPerGroup: 1,
+                spaceBetween: 40
+                
+
+            },
+           
+            490:{
+                slidesPerGroup: 1,
+                spaceBetween: 70,
+                
+            },
+            980:{
+                slidesPerView:3,
+                slidesPerGroup: 3,
+                spaceBetween: 30,
+            }
+        },
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
+    
+</body>
+</html>
