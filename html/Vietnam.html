@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/scotland.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Accomodation</title>
+</head>
+<body>
+    <div class="media">
+        <img class="img0" src="../images/vietnam2.jpg"> 
+        <img class="img1" src="../images/vietnam1.jpg">
+        <h5>.</h5>
+        </div>
+        <div class="a">
+        <button class="accordion">&nbsp;&nbsp;INTRODUCTION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Vietnam is an absolute paradise, a country of considerable beauty that has managed to find a way to persevere gracefully through the enduring legacy of the Indochina Wars.</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;THINGS TO DO AND SEE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>what should you do once you’ve seen where Hô Chi Minh read a proclamation of Vietnamese Independence and investigated historic pagodas? Venture to southern national parks and savor the shimmering paddy fields, village farms, and near-abandoned beaches that offer the perfect escape for a Vietnam honeymoon or a Vietnam vacation. Or explore the world’s largest natural cave, Hang Son Doong Cave.</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;TRANSPORTATION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>After decades of ravaging war, Vietnam is resilient with change and progress. Vietnam roads are being upgraded and access to remote parts of the country is constantly improving.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;WEATHER & CLIMATE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Vietnam weather varies by region, especially between the north and south divide. In the northern region, which includes cities like Hanoi, Vietnam vacations from May to October will be humid with rainfall, whereas winter and spring months will be cool and dry. </p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;CUISINE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>There are many fine-dining venues in cities like Hanoi and Ho Chi Minh City, though some of the most authentic Vietnamese dishes will be found at roadside eateries and street markets.</p>
+        </div>
+        </div>
+    <div class="imag">
+        <img class="hotel1" src="../images/vietnamhotel1.jpg">
+        <img class="hotel2" src="../images/vietnamhotel2.jpg">
+        <h6 class="top">.</h6>
+    </div>
+    <div class="head">
+    <h1 class="resorts">Resorts & Hotels in Vietnam</h1>
+    
+    <p class="scotinfo">Most cities in Vietnam have a wide range of lodging. You will find idyllic retreats, perfect for a Vietnam honeymoon escape, or you can relax in a thatched villa that exudes private luxury along white sand beaches. We help you arrange the perfect Vietnam vacation package accommodations, including these featured resorts:</p>
+</div>
+ <h6 class="bardecor">.</h6>
+ <div class="text">
+ <h5 class="nop">HANOI</h5 >
+ <h2 class="noh">Sofitel Legend Metropole Hanoi&nbsp;<i class="fa fa-arrow-right"></i></h2>
+ <p>Hanoi's legendary landmark since its establishment at the turn of last century.</p>
+ <h5 class="nop">SAIGON</h5 >
+<h2 class="noh">The Reverie Saigon&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>Magnificently furnished, the luxury rooms and suites offer unparalleled comfort with luxuriously-designed furnishings.</p>
+<h5 class="nop">HOI AN</h5>
+<h2 class="noh">Anantara Hoi An Resort&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>A charming hideaway, on the Thu Bon River in the historic UNESCO World Heritage Site of Hoi An.</p>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+  </body>
+  </html>
