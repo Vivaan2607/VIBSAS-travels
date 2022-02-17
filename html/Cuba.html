@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cuba.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Accomodation</title>
+</head>
+<body>
+    <div class="media">
+        <img class="img0" src="../images/cuba2.jpg"> 
+        <img class="img1" src="../images/cuba-trinidad.jpg">
+        <h5>.</h5>
+        </div>
+        <div class="a">
+        <button class="accordion">&nbsp;&nbsp;INTRODUCTION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>The first question always is: Can I still visit Cuba? -- and the answer is "yes"! And we'll help you do it the right way. While Americans visiting Cuba still need to travel under a proper permit, experiencing Cuba's fascinating culture as part of a Cuba tour group or on a private, custom-planned trip just for you is so worth it. </p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;THINGS TO DO AND SEE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>While the jury is still out on the exact location for the best scuba diving in Cuba, no matter where you get in the water, you can guarantee you are going to love it! Cuba dive trips are relatively straightforward to organize and have prices set by the state – Normally around $30 – $40 per submersion. Pristine waters, elegant corals and colorful fish await! Equipment quality is generally very high, and the guides professional!</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;TRANSPORTATION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>With limited time and lots to cover, the most efficient and comfortable is to have us arrange your car and driver and guide to get you about safely and in air conditioned comfort. If you're traveling as part of a group on a guided vacation, you'll not have to contend with mastering local transportation. Otherwise, Cuba can be difficult to get around, but for all the difficulty, it does have a wide variety of transportation options.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;WEATHER & CLIMATE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Cuba is an island in the Caribbean Sea. As such, it experiences the beautiful sameness of temperatures in the seventies and eighties year round, punctuated with the occasional tropical storm. Hurricane season for the Caribbean is the same as it is for the U.S. </p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;CUISINE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>With limited time and lots to cover, the most efficient and comfortable is to have us arrange your car and driver and guide to get you about safely and in air conditioned comfort. If you're traveling as part of a group on a guided vacation, you'll not have to contend with mastering local transportation. Otherwise, Cuba can be difficult to get around, but for all the difficulty, it does have a wide variety of transportation options.</p>
+        </div>
+        </div>
+    <div class="imag">
+        <img class="hotel1" src="../images/cubahotel1.jpg">
+        <img class="hotel2" src="../images/cubahotel2.jpg">
+        <h6 class="top">.</h6>
+    </div>
+    <div class="head">
+    <h1 class="resorts">Resorts & Hotels in Cuba</h1>
+    
+    <p class="scotinfo">Many of Cuba’s hotels aren’t up to U.S. standards and availability is falling short of demand. There are some boutique hotel options we have available, as well as privately staffed home rentals we can arrange.</p>
+</div>
+ <h6 class="bardecor">.</h6>
+ <div class="text">
+ <h5 class="nop"> HAVANA</h5 >
+ <h2 class="noh">Hotel Nacional de Cuba&nbsp;<i class="fa fa-arrow-right"></i></h2>
+ <p>The Hotel Nacional de Cuba is a historic Spanish eclectic style hotel in Havana, Cuba, opened in 1930.</p>
+ <h5 class="nop">VARADERO</h5 >
+<h2 class="noh">Royalton Hicacos Resort & Spa&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>Royalton Hicacos is a resort in Varadero, in the province of Matanzas, Cuba. </p>
+<h5 class="nop">CIENFUEGOS</h5>
+<h2 class="noh">Paradisus Princesa del Mar&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>High-end, all-inclusive beachfront resort with multiple restaurants, bars & lounges, plus 3 pools.</p>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+  </body>
+  </html>

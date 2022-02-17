@@ -71,6 +71,7 @@ border-color: rgb(8, 36, 2);
 color: white;
 border-radius: 10px;
 }
+
 ::-webkit-scrollbar {
     width: 20px;
   }
@@ -179,7 +180,7 @@ border-radius: 10px;
   
 .main{
     font-size:3rem;
-    
+    text-align: center;
 }
 
     
@@ -374,6 +375,7 @@ p.top-para{
 
 /*--------------------------------------------------------------------------- */
 /* Testimonials */
+
 
 /*--------------------------------------------------------------------------- */
 /* Footer */
