@@ -70,6 +70,7 @@ border-color: rgb(8, 36, 2);
 color: white;
 border-radius: 10px;
 }
+
 ::-webkit-scrollbar {
     width: 20px;
   }
@@ -179,13 +180,10 @@ border-radius: 10px;
     .tagline{
         font-size: 1rem;
         padding-bottom: 4rem;
-    }
-  
-.main{
-    font-size:3rem;
-    
-}   
-.landing{height: 700px;}
+  }
+    .main{
+      font-size:3rem;
+  }
 }
 
 
@@ -376,6 +374,7 @@ p.top-para{
 
 /*--------------------------------------------------------------------------- */
 /* Testimonials */
+
 
 /*--------------------------------------------------------------------------- */
 /* Footer */

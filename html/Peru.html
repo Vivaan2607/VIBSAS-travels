@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/peru.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Accomodation</title>
+</head>
+<body>
+    <div class="media">
+        <img class="img0" src="../images/peru-machu-picchu-1.jpg"> 
+        <img class="img1" src="../images/peru2.jpg">
+        <h5>.</h5>
+        </div>
+        <div class="a">
+        <button class="accordion">&nbsp;&nbsp;INTRODUCTION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>As one writer put it: “If Peru didn’t exist, travel guide books would have to invent it.” Travel to Peru can also provide a window to its unique wildlife and intriguing jungles, perhaps best explored on an Amazon River cruise in the comfort of a small luxury river boat.</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;THINGS TO DO AND SEE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Peru is a country in South America that's home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains. The region around Machu Picchu, including the Sacred Valley, Inca Trail and colonial city of Cusco</p>
+        </div>
+        
+        <button class="accordion">&nbsp;&nbsp;TRANSPORTATION<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Peru river cruises are available on the major waterways of the Amazon. Limited rail service is available between the country’s major cities and along the populated shore of Lake Titicaca, but bus or air travel is recommended for reaching other destinations inland.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;WEATHER & CLIMATE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>One could theoretically go from the relatively mild climate of the Southern Peruvian Coast to the harsh extreme of the frozen heights of the Andes, before descending into the sultry heat of the Amazon Basin, and all in one day. Because of this, the weather in Peru is extremely diverse.</p>
+        </div>
+        <button class="accordion">&nbsp;&nbsp;CUISINE<i class="fa fa-plus plus"></i></button>
+        <div class="panel">
+          <p>Hands down, eating in Peru only enriches your trip. Of the top ten world's best restaurants, Lima is the only city with multiple winners. Ceviche here is with red onion and aji pepper, and choclo, a white Andean corn. </p>
+        </div>
+        </div>
+    <div class="imag">
+        <img class="hotel1" src="../images/peruhotel1.jpg">
+        <img class="hotel2" src="../images/peruhotel2.jpg">
+        <h6 class="top">.</h6>
+    </div>
+    <div class="head">
+    <h1 class="resorts">Resorts & Hotels in Peru</h1>
+    
+    <p class="scotinfo">The major cities of Peru all have a wide range of accommodations, from modest to five-star luxury hotels. In the more rural parts of Peru, finding luxury accommodations can be challenging. A few of our select hotels include: </p>
+</div>
+ <h6 class="bardecor">.</h6>
+ <div class="text">
+ <h5 class="nop">CUSCO</h5 >
+ <h2 class="noh">Machu Picchu Pueblo Hotel&nbsp;<i class="fa fa-arrow-right"></i></h2>
+ <p>A tropical garden retreat in the cloud forest of the Machu Picchu Historical Reserve.</p>
+ <h5 class="nop">LIMA</h5 >
+<h2 class="noh">Belmond Miraflores Park&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>Personalized service, exceptional dining and indulgent facilities.</p>
+<h5 class="nop">PUNO</h5>
+<h2 class="noh">Titilaka&nbsp;<i class="fa fa-arrow-right"></i></h2>
+<p>A boutique lodge on a private peninsula on Lake Titicaca.</p>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+  </body>
+  </html>

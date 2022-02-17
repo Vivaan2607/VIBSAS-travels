@@ -1,0 +1,87 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.swiper {
+    width: 950px;
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    padding: 3px;
+    background: rgb(126, 5, 106);
+    border-radius: 50%;
+}
+section .card .image img{
+    height: 100%;
+    width:100%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.card{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    
+}
+.card::before{
+    content:"";
+    position: absolute;
+    height: 40%;
+    width:100%;
+    border-radius: 20px 20px 0 0;
+    background: rgb(126, 5, 106);
+}
+.card .card-content{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    align-items:center;
+    position:relative;
+    z-index: 1;
+}
+.card .name{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+
+}
+#n{
+    font-size: 25px;
+    font-weight: 500;
+}
+.co{
+    color: #949496;
+    font-family:sans-serif;
+   text-align:  center;
+}
+.card .rating .checked{
+    color: rgb(126, 5, 106);
+}
+.card .rating{
+    margin:0.2px;
+}
+
+#button{color:  rgb(126, 5, 106);
+margin-left: 1%;}
+.co span{
+    margin-left: 20%;
+}
+
+    
+
