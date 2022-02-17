@@ -126,9 +126,7 @@ font-weight: 500;
        position: relative;
        margin-left: 10%;
    }
-   .img0{
-margin-left:50%
-   }
+ 
    .accordion,.panel{
     margin: 0;
 width: 100%;
@@ -136,15 +134,15 @@ width: 100%;
    }
 }
 @media (min-width:951px) and (max-width:1400px)
-{
+{.img0{
+    display:none;
+}
    .img1{
        
     
       width:350px;
    }
-   .img0{
-margin-left:20%
-   }
+
    .accordion{
        width:50%;
        margin-left:50%;
@@ -175,3 +173,25 @@ button{
     justify-content: space-between;
     
 }
+@media (max-width: 950px)
+{
+  .img1,.hotel2{
+      
+      display: none;
+  }
+  .img0{
+    position:static;
+    height: 40rem;
+   
+    margin-left: 2rem;
+  }
+  .hotel1{
+      width: 100%;
+  }
+.top{
+    width: 100%;
+}
+h6{
+    width: 100%;
+    margin-left: 0;
+}}
