@@ -68,8 +68,12 @@ body{
 
 background-color: rgb(8, 36, 2);
 border-color: rgb(8, 36, 2);
-color: white;
+
 border-radius: 10px;
+}
+.sub a{
+    color: white;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {

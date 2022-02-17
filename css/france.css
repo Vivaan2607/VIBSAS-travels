@@ -169,3 +169,25 @@ button{
     justify-content: space-between;
     
 }
+@media (max-width: 950px)
+{
+  .img1,.hotel2{
+      
+      display: none;
+  }
+  .img0{
+    position:static;
+    height: 40rem;
+   
+    margin-left: 2rem;
+  }
+  .hotel1{
+      width: 100%;
+  }
+.top{
+    width: 100%;
+}
+h6{
+    width: 100%;
+    margin-left: 0;
+}}
