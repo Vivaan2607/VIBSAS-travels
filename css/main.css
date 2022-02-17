@@ -181,11 +181,18 @@ border-radius: 10px;
     .tagline{
         font-size: 1rem;
         padding-bottom: 4rem;
+<<<<<<< HEAD
     }
   
     .main{
     font-size:3rem;
     }   
+=======
+  }
+    .main{
+      font-size:3rem;
+  }
+>>>>>>> 8b13c73959172471cadb479e015441b43ecb4dc3
 }
 
 
