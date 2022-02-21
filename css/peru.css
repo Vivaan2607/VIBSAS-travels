@@ -134,6 +134,10 @@ margin-left:50%
 width: 100%;
        
    }
+   .text{
+       margin: 0;
+       width: 100%;
+   }
 }
 @media (min-width:951px) and (max-width:1400px)
 {

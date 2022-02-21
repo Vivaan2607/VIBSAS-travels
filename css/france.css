@@ -196,4 +196,8 @@ button{
 h6{
     width: 100%;
     margin-left: 0;
+}
+.text{
+    margin: 0;
+    width: 100%;
 }}
