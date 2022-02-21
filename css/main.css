@@ -397,4 +397,59 @@ p.top-para{
 /*--------------------------------------------------------------------------- */
 /* Footer */
 
+
+footer{
+   
+    background-color: black;color: white;
+
+}
+
+.inside{
+    margin-left: 3rem;
+    padding-top: 3rem;
+}
+.world{margin-top: 1rem;
+margin-left: 1.5rem;}
+
+.countries{margin-top: 1rem;
+margin-left: 0.5rem;}
+
+.india{margin-top: 3rem;
+margin-left: 1.5rem;}
+
+.states{margin-top: 1rem;
+    margin-left: 0.5rem;}
+
+.left{
+    display: flex;
+}
+
+.left_ka_right{margin-left: 5rem;}
+
+.getsocial{margin-top: 4rem;}
+
+.options{margin-top: 1rem;
+margin-left: 0.5rem;}
+
+.socialmedia{margin-top: 1rem;
+margin-left: 0.5rem;}
+
+.right{margin-left: 15rem;}
+
+.getintouch{margin-top: 8.5rem;}
+.review-us{
+    
+    border: none;
+    padding: 0.5rem;
+    width:10rem;
+    border-radius: 10%;
+}
+.review-us a{
+    color:#1C1C1E;
+    text-decoration: none;
+}
+.review-us a:hover{
+    color: green;
+}
+
 /*--------------------------------------------------------------------------- */
