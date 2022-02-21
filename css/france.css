@@ -6,19 +6,23 @@ body{
     font-weight:bold;
     font-size: 3.5rem;
 }
-.franceinfo{
+.scotinfo{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: lighter;
     color:rgb(116, 115, 115);
     padding-bottom: 1%;
 }
 
+
+
 h6{
     background-color: rgb(126, 5, 106);
     margin-left: 153px;
+    padding-top: 1.5rem;
     width:38%;
     height: 1rem;
     z-index: -1;
+    
 }
 .nop{
     color: rgb(95, 95, 95);
@@ -28,7 +32,7 @@ h6{
 margin: 0;
     height:1rem;
     width: 35%;
-    
+    margin-top: 5%;
 }
 .hotel1{
     margin-top: 5%;
@@ -39,15 +43,16 @@ position: relative;
    
 }
 .hotel2{
-    width: 280px;
+    width: 290px;
     height:400px;
 position:relative;
     float: right;
-    left:130px;
+    left:100px;
     top:13rem
 }
 .head{
     margin-left: 5%;
+    
 }
 .noh{
     font-weight: 900;
@@ -65,6 +70,7 @@ position:relative;
     margin-top: 8%;
     margin-left: 30%;
     height: 400px;
+    width:320px;
     float: left;
     position: absolute;
     z-index: 1;
@@ -178,7 +184,7 @@ button{
   .img0{
     position:static;
     height: 40rem;
-   
+   width: 90%;
     margin-left: 2rem;
   }
   .hotel1{
