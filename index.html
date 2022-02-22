@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--bootstrap links-->   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">  
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- <!-- font-awesome  links-->  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--google fonts-->   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
-<!-- CSS Stylesheet -->
+  <!--bootstrap links-->   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- font-awesome  links-->  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!--google fonts-->   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+ 
+  <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="../css/css/famous_packages.css"> -->
-
-
-    <title>vibss Travels</title>
+    <link rel="stylesheet" href="css/css/famous_packages.css">
+  
+    <!-- Favicon -->
+  <link rel="icon" href="images/vibsas-favicon.ico">
+  <title>VIBSAS Travels</title>
 </head>
+
 <body>
 <div class="landing">
 <!-- NavBar -->
 <nav class="navbar navbar-dark navbar-lg navbar-expand-lg">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="index.html"><img src="images/vibsas-logo-transparent.svg" style="max-width: 150px; height: auto;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav m-auto">
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle n" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               India
             </a>
             
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#" target="_blank">Kerala&nbsp;</a>
+              <a class="dropdown-item" href="Kerala/Kerela.html" target="_blank">Kerala&nbsp;</a>
               <a class="dropdown-item" href="Goa/Goa.html" target="_blank">Goa&nbsp;</a>
               <a class="dropdown-item" href="Rajasthan/Rajasthan.html" target="_blank">Rajasthan&nbsp;</a>
               <a class="dropdown-item" href="Punjab/Punjab.html" target="_blank">Punjab&nbsp;</a>
@@ -52,11 +55,11 @@
           World
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">France</a>
-            <a class="dropdown-item" href="#">Scotland</a>
-            <a class="dropdown-item" href="#">Cuba</a>
-            <a class="dropdown-item" href="#">Peru</a>
-            <a class="dropdown-item" href="#">Vietnam</a>
+            <a class="dropdown-item" href="./html/france.html">France</a>
+            <a class="dropdown-item" href="./html/Scotland.html">Scotland</a>
+            <a class="dropdown-item" href="./html/Cuba.html">Cuba</a>
+            <a class="dropdown-item" href="./html/Peru.html">Peru</a>
+            <a class="dropdown-item" href="./html/Vietnam.html">Vietnam</a>
         </div>
     </li>
         <li class="nav-item">
@@ -66,32 +69,32 @@
           <a class="nav-link n" href="#">Blogs</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link n" href="#">Reviews</a>
+            <a class="nav-link n" href="html/testimonials.html">Reviews</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link n" href="#">Why Us?</a>
+            <a class="nav-link n" href="#why-vibsas">Why Us?</a>
         </li>
        
       </ul>
       <form class="d-flex">
        
-        <button class="btn btn-outline-success sub" type="submit">  Contact Us&nbsp;&nbsp;<i class="fa fa-phone  "></i></button>
+        <button class="btn btn-outline-success sub" type="submit"> <a href="html/contact-us.html"> Contact Us&nbsp;&nbsp;</a><i class="fa fa-phone  "></i></button>
       </form>
     </div>
   </nav>
-    
+ 
 <!-- NavBar Ends -->
 
 <!-- Title Page -->
-<div class="content">
+  <div class="content">
     <p class="tagline">Connecting your journey through purpose</p>
-    <p class="main">Your world wide travel partner, forever.</p>
+    <h1 class="main">Your world wide travel partner, forever.</h1>
   </div>
 </div>
 <!-- "Why Vibsas section" -->
     <section id="why-vibsas-section">
         <header class="why-vibsas-header">
-            <h3 class="why-vibsas-small-heading">What makes us different</h3>
+            <h3 id=why-vibsas class="why-vibsas-small-heading">What makes us different</h3>
             <h2 class="why-vibsas-big-heading">Why Vibsas?</h2>
         </header>
         <div class="why-vibsas-content">
@@ -137,72 +140,72 @@
     </section>
 
 <!-- Travel Styles section/packages-->
-<!-- <section class="section3">
-    <div class="heading">
-    <span>Bestsellers of the Season</span>
-    </div>
-    <div class="row1">
-        <div class="card1">
-             <img src="card1.jpg" alt="backgroundimage">
-            <div class="text1">
-              <div class="price">Feb 10 @ ₹45,000</div>
-              <div class="location">Dalhousie Dharamshala Amritsar</div>
-              <div class="days">08 Days</div>
+  <section class="section3">
+      <div class="heading">
+      <span>Bestsellers of the Season</span>
+      </div>
+      <div class="row1">
+          <div class="card1">
+              <img src="card1.jpg" alt="backgroundimage">
+              <div class="text1">
+                <div class="price">Feb 10 @ ₹45,000</div>
+                <div class="location">Dalhousie Dharamshala Amritsar</div>
+                <div class="days">08 Days</div>
+              </div>
+          </div>
+
+          <div class="card2">
+              <img src="card2.jpg" alt="backgroundimage">
+            <div class="text2">
+              <div class="price2">Feb 19 @ ₹40,000</div>
+              <div class="location2">Best of Madhya Pradesh</div>
+              <div class="days2">07 Days</div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row2">
+          <div class="card3">
+              <img src="card3.jpg" alt="backgroundimage">
+            <div class="text3">
+              <div class="price3">Feb 14 @ ₹30,000</div>
+              <div class="location3">Kerala Highlights</div>
+              <div class="days3">06 Days</div>
             </div>
         </div>
 
-        <div class="card2">
-            <img src="card2.jpg" alt="backgroundimage">
-           <div class="text2">
-             <div class="price2">Feb 19 @ ₹40,000</div>
-             <div class="location2">Best of Madhya Pradesh</div>
-             <div class="days2">07 Days</div>
-           </div>
-       </div>
-    </div>
+        <div class="card4">
+            <img src="card4.jpg" alt="backgroundimage">
+            <div class="text4">
+              <div class="price4">Feb 11 @ ₹55,000</div>
+              <div class="location4">Honeymoon Special Assam Meghalaya</div>
+              <div class="days4">08 Days</div>
+            </div>
+        </div>
 
-    <div class="row2">
-        <div class="card3">
-            <img src="card3.jpg" alt="backgroundimage">
-           <div class="text3">
-             <div class="price3">Feb 14 @ ₹30,000</div>
-             <div class="location3">Kerala Highlights</div>
-             <div class="days3">06 Days</div>
-           </div>
-       </div>
 
-       <div class="card4">
-           <img src="card4.jpg" alt="backgroundimage">
-          <div class="text4">
-            <div class="price4">Feb 11 @ ₹55,000</div>
-            <div class="location4">Honeymoon Special Assam Meghalaya</div>
-            <div class="days4">08 Days</div>
-          </div>
       </div>
 
+      <div class="row3">
+          <div class="card5">
+              <img src="card5.jpg" alt="backgroundimage">
+            <div class="text5">
+              <div class="price5">Feb 16 @ ₹45,000</div>
+              <div class="location5">Dalhousie Dharamshala Amritser</div>
+              <div class="days5">10 Days</div>
+            </div>
+        </div>
 
-    </div>
-
-    <div class="row3">
-        <div class="card5">
-            <img src="card5.jpg" alt="backgroundimage">
-           <div class="text5">
-             <div class="price5">Feb 16 @ ₹45,000</div>
-             <div class="location5">Dalhousie Dharamshala Amritser</div>
-             <div class="days5">10 Days</div>
-           </div>
-       </div>
-
-       <div class="card6">
-           <img src="card6.jpg" alt="backgroundimage">
-          <div class="text6">
-            <div class="price6">Feb 21 @ ₹39,000</div>
-            <div class="location6">Best of Madhya Pradesh</div>
-            <div class="days6">05 Days</div>
-          </div>
+        <div class="card6">
+            <img src="card6.jpg" alt="backgroundimage">
+            <div class="text6">
+              <div class="price6">Feb 21 @ ₹39,000</div>
+              <div class="location6">Best of Madhya Pradesh</div>
+              <div class="days6">05 Days</div>
+            </div>
+        </div>
       </div>
-    </div>
-</section> -->
+  </section>
 
    
 
@@ -214,9 +217,128 @@
 
 <!-- Testimonials -->
 
+
 <!-- Contact Us -->
 
 <!-- Footer -->
+<div class="footerbg">
+<footer class="webfooter"> 
+  <div class="inside">
+
+  <div class="left">
+      
+      
+      <div class="destinations">
+
+      <h1>destinations</h1>
+      <div class="world"> 
+          <h2>world
+          </h2>
+          <div class="countries">
+              <ul>
+              <li class="1">spain</li>
+              <li class="2">france</li>
+              <li class="3">uk</li>
+              <li class="4">usa</li>
+              <li class="5">germany</li>
+              <li class="6">swizterland</li>
+          </ul>
+          </div>
+      </div>
+      <div class="india">
+      <h2>india
+
+      </h2>
+      <div class="states">
+      <ul>
+      <li class="state1">rajasthan</li>
+      <li class="state2">maharashtra</li>
+      <li class="state3">delhi</li>
+      <li class="state4">tamil nadu</li>
+      <li class="state5">punjab</li>
+      <li class="state6">kerala</li>
+      </ul>
+      </div>
+
+      </div>
+
+      </div>
+  
+      <div class="left_ka_right">
+          <div class="company">
+          <h1>company</h1>
+          <div class="options">
+      
+          <ul>
+              <li class="company1">get started</li>
+              <li class="company2">travel experts & blogs</li>
+              <li class="company3">packages</li>
+              <li class="company4">activities</li>
+
+
+      
+  
+
+
+
+           </ul>
+           </div>
+           </div>
+           <div class="getsocial">
+               <h1>get social</h1>
+               <div class="socialmedia">
+                  <ul>
+                      <li class="socialmedia1"> <i class="fab fa-linkedin-in"></i>&nbsp;&nbsp;linkedin</li>
+                      <li class="socialmedia2"> <i class="fab fa-facebook-f"></i>&nbsp;&nbsp;facebook</li>
+                      <li class="socialmedia3"><i class="fab fa-youtube"></i>&nbsp;&nbsp;youtube</li>
+                      <li class="socialmedia4"> <i class="fab fa-instagram"></i>&nbsp;&nbsp;instagram</li>
+                      <li class="socialmedia5"> <i class="fab fa-twitter"></i>&nbsp;&nbsp;twitter</li>
+                  </ul>
+
+               </div>
+
+      </div>
+  </div>
+  <div class="right">
+
+
+      <div class="review">
+          <h1>we've been where you want to go</h1>
+          <button class="review-us"><a href="html/review.html">Review Us</a> </button>
+
+      </div>
+
+      <div class="getintouch">
+          <h1>get in touch</h1>
+          <div class="call">
+              For travel planning,call:<br>12345678901
+          
+          </div>
+          <div class="email">
+              or email us at: <br>xxxxxx@gmail.com 
+
+
+          </div>
+
+
+
+
+      </div>
+
+
+  </div>
+<div class="statement">
+
+
+</div>
+</div>
+
+
+
+
+</footer>
+</div>
+  
  <!-- Font Awesome -->
  <script src="https://kit.fontawesome.com/6c951f2954.js" crossorigin="anonymous"></script>
  <!-- Bootstrap Scripts -->
