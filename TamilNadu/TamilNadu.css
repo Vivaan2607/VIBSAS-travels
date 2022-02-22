@@ -299,3 +299,17 @@
     color: aliceblue;
     font-size: 16px;
 }
+
+
+
+.background{
+    background-color: aqua;
+    height: 55rem;
+    background-image: url('../TamilNadu/images/tamilnadu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    margin: 0;
+    
+
+}

@@ -312,3 +312,15 @@
       
     }
 }
+
+.background{
+    background-color: aqua;
+    height: 55rem;
+    background-image: url('../Rajasthan/images/rajastha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    margin: 0;
+    
+
+}

@@ -299,3 +299,20 @@
     color: aliceblue;
     font-size: 16px;
 }
+
+.background{
+    background-color: aqua;
+    height: 55rem;
+    background-image: url('../Kerala/images/kerala.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    margin: 0;
+    
+
+}
+
+.explore{
+
+    margin-top: 15rem;
+}
