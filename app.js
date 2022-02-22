@@ -3,21 +3,21 @@ const cityName = document.querySelector(".cityname");
 const image = document.querySelector(".rand-img");
 
 randBtn.addEventListener("click", ()=>{
-    var n = Math.floor(Math.random()*4+1);
+    var n = Math.floor(Math.random()*5+1);
     switch(n) {
-        case 0:
+        case 1:
             showCity("Kerala");
             break;
-        case 1:
+        case 2:
             showCity("Goa");
             break;
-        case 2:
+        case 3:
             showCity("Rajasthan");
             break;
-        case 3:
+        case 4:
             showCity("Punjab");
             break;         
-        case 4:
+        case 5:
             showCity("Tamil-Nadu");
             break;
     }
