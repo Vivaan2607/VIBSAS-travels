@@ -396,17 +396,15 @@ p.top-para{
     font-weight: 100;
 }
 .rand-img {
-    max-width: 600px;
+    max-width: 900px;
     height: auto;
 }
 .rand-btn {
     border-radius: 60px;
     padding: 0.25rem 1.5rem;
-
 }
 .rand-content {
-   
-    max-width: 600px;
+    max-width: 100vw;
     margin: 2rem auto 0;
     position: relative;
 }
