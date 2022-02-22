@@ -380,6 +380,9 @@ p.top-para{
 /*--------------------------------------------------------------------------- */
 
 /* Random City Generator section */
+#random-generator {
+    text-align: center;
+}
 .rand-img {
     max-width: 500px;
     height: auto;

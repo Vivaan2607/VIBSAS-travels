@@ -3,25 +3,22 @@ const cityName = document.querySelector(".cityname");
 const image = document.querySelector(".rand-img");
 
 randBtn.addEventListener("click", ()=>{
-    var n = Math.floor(Math.random()*6+1);
+    var n = Math.floor(Math.random()*4+1);
     switch(n) {
+        case 0:
+            showCity("Kerala");
+            break;
         case 1:
-            showCity("Delhi");
+            showCity("Goa");
             break;
         case 2:
-            showCity("Mumbai");
+            showCity("Rajasthan");
             break;
         case 3:
-            showCity("Bangalore");
-            break;
-        case 4:
-            showCity("Kolkata");
+            showCity("Punjab");
             break;         
-        case 5:
-            showCity("Chennai");
-            break;
-        case 6:
-            showCity("Hyderabad");
+        case 4:
+            showCity("Tamil-Nadu");
             break;
     }
     console.log("working");
@@ -29,8 +26,7 @@ randBtn.addEventListener("click", ()=>{
 
 
 function showCity (n) {
-    randomCity = n + ".jpg";
-    randomImageSource = "images/" + randomCity;
+    randomImageSource = "images/random-" + n +".jpg";
     image.setAttribute("src", randomImageSource);
     cityName.innerHTML = "This is " + n;
 }
