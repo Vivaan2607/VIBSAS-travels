@@ -47,7 +47,7 @@ position: relative;
     height:400px;
 position:relative;
     float: right;
-    left:120px;
+    left:100px;
     top:13rem
 }
 .head{
@@ -126,7 +126,9 @@ font-weight: 500;
        position: relative;
        margin-left: 10%;
    }
- 
+   .img0{
+margin-left:50%
+   }
    .accordion,.panel{
     margin: 0;
 width: 100%;
@@ -134,15 +136,15 @@ width: 100%;
    }
 }
 @media (min-width:951px) and (max-width:1400px)
-{.img0{
-    display:none;
-}
+{
    .img1{
        
     
       width:350px;
    }
-
+   .img0{
+margin-left:20%
+   }
    .accordion{
        width:50%;
        margin-left:50%;
@@ -182,7 +184,7 @@ button{
   .img0{
     position:static;
     height: 40rem;
-   
+   width: 90%;
     margin-left: 2rem;
   }
   .hotel1{
@@ -194,4 +196,8 @@ button{
 h6{
     width: 100%;
     margin-left: 0;
+}
+.text{
+    margin: 0;
+    width: 100%;
 }}

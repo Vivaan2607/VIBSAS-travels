@@ -47,7 +47,7 @@ position: relative;
     height:400px;
 position:relative;
     float: right;
-    left:120px;
+    left:100px;
     top:13rem
 }
 .head{
@@ -134,6 +134,10 @@ margin-left:50%
 width: 100%;
        
    }
+   .text{
+       margin: 0;
+       width: 100%;
+   }
 }
 @media (min-width:951px) and (max-width:1400px)
 {
@@ -184,7 +188,7 @@ button{
   .img0{
     position:static;
     height: 40rem;
-   
+   width: 90%;
     margin-left: 2rem;
   }
   .hotel1{

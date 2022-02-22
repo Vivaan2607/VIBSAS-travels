@@ -184,7 +184,7 @@ button{
   .img0{
     position:static;
     height: 40rem;
-   
+   width: 90%;
     margin-left: 2rem;
   }
   .hotel1{
@@ -196,4 +196,8 @@ button{
 h6{
     width: 100%;
     margin-left: 0;
+}
+.text{
+    margin: 0;
+    width: 100%;
 }}
