@@ -184,11 +184,12 @@ button{
   .img0{
     position:static;
     height: 40rem;
-   
+   width: 100%;
     margin-left: 2rem;
   }
   .hotel1{
       width: 100%;
+      height: 35rem
   }
 .top{
     width: 100%;
