@@ -1,7 +1,7 @@
 const randBtn = document.querySelector(".rand-btn");
-const cityName = document.querySelector(".cityname");
+const cityHead = document.querySelector(".city-heading");
 const image = document.querySelector(".rand-img");
-
+const cityPara = document.querySelector(".city-para");
 randBtn.addEventListener("click", ()=>{
     var n = Math.floor(Math.random()*10+1);
     switch(n) {
@@ -43,5 +43,5 @@ randBtn.addEventListener("click", ()=>{
 function showCity (n) {
     randomImageSource = "images/random-" + n +".jpg";
     image.setAttribute("src", randomImageSource);
-    cityName.innerHTML = "This is " + n;
+    cityHead.innerHTML = n;
 }
