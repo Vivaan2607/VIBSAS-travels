@@ -1,6 +1,67 @@
 body{
     margin:  0;
 }
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* left: 50%; */
+    /* top: 50%; */
+    background-image: url(../images/peru1.jpeg);
+    background-size: 100% 100%;
+    /* transform: translate(-50%,-50%); */
+    animation:slider 20s infinite linear ;
+    
+}
+@keyframes slider {
+    0%{background-image: url(../images/peru1.jpeg);}
+    14%{background-image: url(../images/peru2.jpeg);}
+    28%{ background-image: url(../images/peru3.jpeg);}
+    42%{background-image: url(../images/peru4.jpeg);}
+    56%{background-image: url(../images/peru5.jpeg);}
+    70%{background-image: url(../images/peru6.jpeg);}
+    84%{background-image: url(../images/peru7.jpeg);}
+    99%{background-image: url(../images/peru8.jpeg);}
+}
+.navbar2{
+    margin-top: 3rem;   
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.france3{
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+.intro p{
+    text-align: center;
+    height: 20rem;
+    font-size: 2.23rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    
+}
+.maindiv h1{
+    position: relative;
+    text-align: center;
+    font-size: 8rem;
+    top: 18rem;
+    color: white;
+    text-shadow: 10px 10px black;
+}
+
+
+
 .resorts{
     
     font-weight:bold;
@@ -27,6 +88,7 @@ h6{
 .nop{
     color: rgb(95, 95, 95);
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    margin-top: 5%;
 }
 .top{
 margin: 0;
@@ -52,11 +114,15 @@ position:relative;
 }
 .head{
     margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     
 }
 .noh{
     font-weight: 900;
     font-size: 1.7rem;
+    margin-top: 20px;
+
 }
 .text{
     margin-left: 5%;

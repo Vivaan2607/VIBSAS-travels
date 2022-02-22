@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.whole{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+.whole{
+    display: flex;
+    align-items: center;
+    height: 120vh;
+    /* margin-left: 15rem; */
+    width: 100%;
+    font-size: 4rem;
+}
+.inside{
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+}
+.input{
+    margin-left: 6rem;
+   
+}
+input{
+    font-size: 25px;
+    
+}
+.email{
+    width: 22rem;
+    padding-top: 32px;
+}
+:placeholder-shown{
+    font-size: 20px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+.input button{
+    width: 10rem;
+    height: 5.4rem;
+    text-align: center;
+    font-size: 25px;
+}
