@@ -76,9 +76,7 @@ border-radius: 10px;
 }
 
 
-::-webkit-scrollbar {
-    width: 20px;
-  }
+
  .dropdown-menu{
     overflow-y:visible;
     
