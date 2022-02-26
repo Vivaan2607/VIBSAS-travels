@@ -18,7 +18,7 @@
 {
     position: relative;
     top: 5%;
-    left: 37%;
+    left: 40%;
     padding-bottom: 20px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -87,7 +87,7 @@
 .overlay2
 {
   position: absolute;
-  bottom: 0%;
+  bottom: 1.5%;
   left: 14%;
   right: 0;
   overflow: hidden;
@@ -98,7 +98,7 @@
 }
 
 .container2:hover .overlay2 {
-    height: 93.8%;
+    height: 92.7%;
 }
 
 .container3
@@ -106,14 +106,14 @@
     position:relative;
     left: 59%;
     bottom: 630px;
-    width: 23%;
+    width: 24%;
 }
 
 .container4
 {
     position: relative;
     left: 59%;
-    bottom: 625px;
+    bottom: 620px;
     width: 20%;
     
 }
@@ -146,7 +146,7 @@
     position: relative;
     color: aliceblue;
     font-size: 20px;
-    left: 35%;
+    left: 40%;
 }
 
 .VelloreSub
@@ -159,7 +159,7 @@
 {
     position: relative;
     left: 59%;
-    bottom: 597px;
+    bottom: 585px;
     width: 20%;
     
 }
@@ -191,7 +191,7 @@
     position: relative;
     color: aliceblue;
     font-size: 20px;
-    left: 21%;
+    left: 36%;
 }
 
 .MarinaSub
@@ -203,9 +203,9 @@
 .container6
 {
    position: relative;
-   left: 11.45%;
-   width: 36.5%;
-   bottom: 580px;
+   left: 11.6%;
+   width: 38.5%;
+   bottom: 565px;
 }
 
 .Image5
@@ -221,7 +221,7 @@
 {
     position: relative;
     bottom: 0%;
-    left: 34%;
+    left: 28%;
     padding-bottom: 20px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -232,7 +232,7 @@
 .MuduSub
 {
     width: 100%;
-    bottom: 20%;
+    bottom: 10%;
     right: 40%;
     color: aliceblue;
 }
@@ -251,14 +251,14 @@
 }
 
 .container6:hover .overlay5 {
-    height: 92%;
+    height: 92.5%;
 }
 .container7
 {
     position: relative;        
-    left: 50.7%;
-    width: 30.3%;
-    bottom: 814px;
+    left: 51%;
+    width: 30%;
+    bottom: 813px;
 }
 
 .Image6
@@ -278,7 +278,7 @@
     left: 0%;
     right: 0;
     overflow: hidden;
-    width: 106.8%;
+    width: 106.5%;
     height: 0;
     transition: .5s ease;
     background: rgba(0, 0, 0, 0.5);
@@ -300,10 +300,22 @@
     font-size: 16px;
 }
 
+@media (max-width:767px){
+
+    .container3{
+      background-color: aqua;
+      bottom: -150px;
+      width:40%;
+      position: relative;
+      left:190px;
+      justify-content: center;
+      
+    }
+}
+
 .background{
-    background-color: aqua;
-    height: 50rem;
-    background-image: url('../Kerala/images/kerala.png');
+    height: 55rem;
+    background-image: url('../images/rajastha.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
@@ -312,45 +324,170 @@
 
 }
 
-.explore{
 
-    margin-top: 15rem;
+/* cards */
+
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  body{
+    height: 100%;
+  }
+  
+  .hero-section{
+    align-items: flex-start;
+    position: relative;
+    
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    padding: var(--spacing-xxl) var(--spacing-l);
+    bottom: 700px;
+  }
+  
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  .card{
+    list-style: none;
+    position: relative;
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+  
+  .card:hover .card__background{
+    transform: scale(1.05) translateZ(0);
+  }
+  
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  }
+  
+  .card__content{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+  }
+  
+  .card__category{
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+  }
+  
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }
+
+.hotel{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 670px;
 }
 
 /*typing animation*/
 
 .wrapper {
   
-    /*This part is important for centering*/
-    display: flex;
-   
-  }
-  
-  .typing-demo {
-    width: 6ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
+  /*This part is important for centering*/
+  display: flex;
+ 
+}
 
-  /*navbar css*/
+.typing-demo {
+  width: 9ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
 
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/*navbar*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -398,6 +535,7 @@ body {
 
 .navbar .nav-container a:hover{
     font-weight: bolder;
+    color: rgb(39, 21, 105);
 }
 
 .nav-container {
@@ -540,7 +678,8 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;
+color: aqua;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display:inline-block;}

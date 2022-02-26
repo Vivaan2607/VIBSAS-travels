@@ -18,7 +18,7 @@
 {
     position: relative;
     top: 5%;
-    left: 32%;
+    left: 37%;
     padding-bottom: 20px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -28,14 +28,14 @@
 {
     width: 100%;
     bottom: 10%;
-    right: 40%;
+    right: 45%;
     color: aliceblue;
 }
 
 .overlay1
 {
   position: absolute;
-  bottom: 1.5%;
+  bottom: 0%;
   left: 14%;
   right: 0;
   overflow: hidden;
@@ -46,14 +46,14 @@
 }
 
 .container1:hover .overlay1 {
-    height: 98.5%;
+    height: 100%;
 }
 
 .container2
 {
    position: relative;
    left: 10%;
-   width: 47%
+   width: 47%;
 }
 
 .Image2
@@ -69,7 +69,7 @@
 {
     position: relative;
     top: 5%;
-    left: 32%;
+    left: 33%;
     padding-bottom: 20px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -87,7 +87,7 @@
 .overlay2
 {
   position: absolute;
-  bottom: 1.5%;
+  bottom: 0%;
   left: 14%;
   right: 0;
   overflow: hidden;
@@ -98,22 +98,22 @@
 }
 
 .container2:hover .overlay2 {
-    height: 92.7%;
+    height: 94.7%;
 }
 
 .container3
 {
-    position: relative;
+    position:relative;
     left: 59%;
-    bottom: 630px;
-    width: 22%;
+    bottom: 670px;
+    width: 23%;
 }
 
 .container4
 {
     position: relative;
     left: 59%;
-    bottom: 600px;
+    bottom: 630px;
     width: 20%;
     
 }
@@ -126,12 +126,12 @@
 }
 
 .container4:hover .overlay3 {
-    height: 98%;
+    height: 100%;
 }
 .overlay3
 {
     position: absolute;
-    bottom: 2%;
+    bottom: 0%;
     left: 0%;
     right: 0;
     overflow: hidden;
@@ -146,7 +146,7 @@
     position: relative;
     color: aliceblue;
     font-size: 20px;
-    left: 23%;
+    left: 35%;
 }
 
 .VelloreSub
@@ -159,7 +159,7 @@
 {
     position: relative;
     left: 59%;
-    bottom: 565px;
+    bottom: 584px;
     width: 20%;
     
 }
@@ -171,12 +171,12 @@
 }
 
 .container5:hover .overlay4 {
-    height: 98%;
+    height: 100%;
 }
 .overlay4
 {
     position: absolute;
-    bottom: 2%;
+    bottom: 0%;
     left: 0%;
     right: 0;
     overflow: hidden;
@@ -191,7 +191,7 @@
     position: relative;
     color: aliceblue;
     font-size: 20px;
-    left: 23%;
+    left: 35%;
 }
 
 .MarinaSub
@@ -204,8 +204,8 @@
 {
    position: relative;
    left: 11.6%;
-   width: 35%;
-   bottom: 562px;
+   width: 36.5%;
+   bottom: 565px;
 }
 
 .Image5
@@ -221,7 +221,7 @@
 {
     position: relative;
     bottom: 0%;
-    left: 30%;
+    left: 37%;
     padding-bottom: 20px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -232,7 +232,7 @@
 .MuduSub
 {
     width: 100%;
-    bottom: 10%;
+    bottom: 20%;
     right: 40%;
     color: aliceblue;
 }
@@ -240,7 +240,7 @@
 .overlay5
 {
   position: absolute;
-  bottom: 1.5%;
+  bottom: 0%;
   left: 14%;
   right: 0;
   overflow: hidden;
@@ -251,7 +251,7 @@
 }
 
 .container6:hover .overlay5 {
-    height: 91.1%;
+    height: 93%;
 }
 .container7
 {
@@ -268,13 +268,13 @@
 }
     
 .container7:hover .overlay6 {
-    height: 98.5%;
+    height: 100%;
 }
 
 .overlay6
 {
     position: absolute;
-    bottom: 1%;
+    bottom: 0%;
     left: 0%;
     right: 0;
     overflow: hidden;
@@ -290,7 +290,7 @@
     position: relative;
     color: aliceblue;
     font-size: 20px;
-    left: 31%;
+    left: 33%;
     font-size: 30px;
 }
     
@@ -301,10 +301,9 @@
 }
 
 
-
 .background{
-    height: 48rem;
-    background-image: url('../TamilNadu/images/tamilnadu.png');
+    height: 45rem;
+    background-image: url('../images/punjab2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
@@ -324,7 +323,7 @@
   }
   
   .typing-demo {
-    width: 10ch;
+    width: 7ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -345,7 +344,7 @@
     }
   }
 
-/*navbar css*/
+  /*navbar css*/
 
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -544,3 +543,46 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/*media query*/
+
+@media (max-width:990px){
+
+  .img1{
+    position: relative;
+    top:120px;
+
+  }
+
+  .img2{
+    position: relative;
+    left:600px;
+    bottom: 620px;
+    opacity: 0.8;
+  }
+
+  .column1{
+    padding-right:20px ;
+
+  }
+
+}
+
+@media (max-width:766px){
+
+  .img1{
+    position: relative;
+  top:360px;
+  }
+  .img2{
+  top: -400px;
+  left:2px;
+  opacity: 1;
+
+
+
+  }
+}
