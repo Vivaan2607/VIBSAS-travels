@@ -303,7 +303,7 @@
 
 .background{
     height: 45rem;
-    background-image: url('../Punjab/images/punjab2.png');
+    background-image: url('../images/punjab2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
@@ -543,3 +543,46 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/*media query*/
+
+@media (max-width:990px){
+
+  .img1{
+    position: relative;
+    top:120px;
+
+  }
+
+  .img2{
+    position: relative;
+    left:600px;
+    bottom: 620px;
+    opacity: 0.8;
+  }
+
+  .column1{
+    padding-right:20px ;
+
+  }
+
+}
+
+@media (max-width:766px){
+
+  .img1{
+    position: relative;
+  top:360px;
+  }
+  .img2{
+  top: -400px;
+  left:2px;
+  opacity: 1;
+
+
+
+  }
+}

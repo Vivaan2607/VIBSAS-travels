@@ -301,9 +301,9 @@
 }
 
 .background{
-    background-color: aqua;
+    
     height: 50rem;
-    background-image: url('../Kerala/images/kerala.png');
+    background-image: url('../images/kerala.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
@@ -547,3 +547,22 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/*media query*/
+
+.container{
+
+  margin-left: 5rem;
+}
+
+@media only screen and (min-width: 1413px){
+
+  .container{
+      margin-left: 10rem;
+  }
+
+}
+
