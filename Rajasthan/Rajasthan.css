@@ -535,6 +535,7 @@ body {
 
 .navbar .nav-container a:hover{
     font-weight: bolder;
+    color: rgb(39, 21, 105);
 }
 
 .nav-container {
@@ -677,7 +678,8 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;
+color: aqua;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display:inline-block;}
