@@ -8,6 +8,12 @@ body{
     text-decoration: none;
     list-style: none;
 }
+
+li:hover{
+    background-color: rgb(126, 5, 106);
+    height: 2px;
+    
+}
 .maindiv{
     width: 100%;
     height: 100vh;
