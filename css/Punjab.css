@@ -610,7 +610,7 @@ body {
 }
 
 html{
-  height: 100%;
+  height: 50%;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
@@ -715,4 +715,8 @@ body{
   font-family: sans-serif;
   position: relative;
   bottom: 670px;
+}
+
+html{
+  margin-bottom: 0;
 }
