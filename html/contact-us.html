@@ -32,7 +32,7 @@
 
         <h3>We'll find the right Travel Expert to plan your vacation.</h3>
 
-        <form>
+        <form name="message" method="post" data-netlify="true">
           <div class="form-group">
 
             <textarea class="message" id="yourmessage" placeholder="Your Message" rows="3"></textarea>
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <form>
+            <form data-netlify="true" method="post" name="name">
 
               <input type="text" class="forms" placeholder="First name">
           </div>
@@ -84,7 +84,7 @@
           </div>
           </form>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <form>
+            <form data-netlify="true" method="post" name="email">
 
               <input type="email" class="forms" placeholder="Email ID">
           </div>
@@ -99,9 +99,10 @@
         </div>
 <div class="button">
 
-
+<form data-netlify="true" name="submit">
         <button id="submit" type="button" class="btn btn-outline-light btn-lg">Submit</button>
 </div>
+</form>
   </div>
 
   </div>
