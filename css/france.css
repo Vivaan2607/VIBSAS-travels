@@ -22,12 +22,12 @@ body{
 }
 @keyframes slider {
     0%{background-image: url(../images/france1.jpeg);}
-    14%{background-image: url(../images/france2.jpeg);}
-    28%{ background-image: url(../images/france3.jpeg);}
-    42%{background-image: url(../images/france4.jpeg);}
-    56%{background-image: url(../images/france5.jpeg);}
-    70%{background-image: url(../images/france6.jpeg);}
-    84%{background-image: url(../images/france7.jpeg);}
+    15%{background-image: url(../images/france2.jpeg);}
+    30%{ background-image: url(../images/france3.jpeg);}
+    45%{background-image: url(../images/france4.jpeg);}
+    60%{background-image: url(../images/france5.jpeg);}
+    75%{background-image: url(../images/france6.jpeg);}
+    90%{background-image: url(../images/france7.jpeg);}
     99%{background-image: url(../images/france8.jpeg);}
 }
 .navbar2{
