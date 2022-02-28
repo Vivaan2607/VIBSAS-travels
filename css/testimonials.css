@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading{
+    color: #fff;
+    display:flexbox;
+}
 .swiper {
     width: 950px;
   }
@@ -13,7 +17,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f2f2f2;
+    background-image: url("../images/review.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section .card .image{
     height: 140px;
