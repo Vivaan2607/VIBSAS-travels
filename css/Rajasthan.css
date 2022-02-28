@@ -527,7 +527,7 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
+  color:#2d3548;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -593,7 +593,8 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  box-shadow: inset 0 0 2000px rgba(5, 5, 5, 0.5);
+  background-color: #f6f8f670;
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
@@ -603,6 +604,7 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
+
 }
 
 .navbar .menu-items li {

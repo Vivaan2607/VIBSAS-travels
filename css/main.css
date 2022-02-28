@@ -84,6 +84,9 @@ border-radius: 10px;
  .dropdown .dropdown-item{
     color: white;
  }
+ .dropdown .dropdown-item:hover{
+     color: #000;
+ }
 .dropdown .dropdown-menu {
     background-color: black;
    

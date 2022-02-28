@@ -6,17 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/scotland.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/experts.css">
     <title>Scotland</title>
 </head>
 <body>
-
+    <!--nav-->
+    <div class="background">
+        <nav>
+          <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>  
+              <div class="logo">
+                  <a class="navbar-brand" href="../index.html"><img src="../images/vibsas-logo-transparent.svg" style="max-width: 150px; height: auto;"></a>
+              </div>
+              <div class="menu-items">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#why-vibsas-section">about</a></li>
+                <li><a href="https://thirdeyetraveller.com/the-best-and-only-rajasthan-itinerary-you-will-ever-need/" target="_blank">blogs</a></li>
+                <li><a href="./testimonials.html">reviews</a></li>
+                <li><a href="./contact-us.html">contact us</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle n" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 World
+                  </a>
+                  
+                  <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./Scotland.html" >Scotland&nbsp;</a>
+                    <a class="dropdown-item" href="./france.html" >France&nbsp;</a>
+                    <a class="dropdown-item" href="./Cuba.html" >Cuba&nbsp;</a>
+                    <a class="dropdown-item" href="./Peru.html" >Peru&nbsp;</a>
+                    <a class="dropdown-item" href="./Vietnam.html" >Vietnam&nbsp;</a>
+                  
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+    
+    <!--nav-->
+  
+      
+      
   <section class="france1">
     <div class="maindiv">
           <h1>SCOTLAND</h1>
     </div>
 </section>
-
+</div>
 <section class="france2">
     <div class="navbar2">
         <ul>
@@ -145,6 +188,18 @@
 <h2 class="noh">Fairmont St Andrews&nbsp;<i class="fa fa-arrow-right"></i></h2>
 <p>Stunning cliff top views, coastal walks, history and Scottish touches everywhere.</p>
 </div>
+<script>
+    window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbar").style.background = "#501e27";
+  } else {
+   
+    document.getElementById("navbar").style.background = "none";
+  }
+}
+</script> 
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;

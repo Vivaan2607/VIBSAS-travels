@@ -544,3 +544,32 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+*{
+  margin: 0;
+  
+}
+.main{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  
+  color: rgb(14, 0, 0);
+  
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(199, 199, 199);
+    transition: 0.3s;
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card:hover {    
+      box-shadow: 0 8px 16px 0 rgba(201, 201, 201, 0.918);
+  }
