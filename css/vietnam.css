@@ -28,12 +28,12 @@ li:hover{
 }
 @keyframes slider {
     0%{background-image: url(../images/vietnam1.jpeg);}
-    14%{background-image: url(../images/vietnam2.jpeg);}
-    28%{ background-image: url(../images/vietnam3.jpeg);}
-    42%{background-image: url(../images/vietnam4.jpeg);}
-    56%{background-image: url(../images/vietnam5.jpeg);}
-    70%{background-image: url(../images/vietnam6.jpeg);}
-    84%{background-image: url(../images/vietnam7.jpeg);}
+    15%{background-image: url(../images/vietnam2.jpeg);}
+    30%{ background-image: url(../images/vietnam3.jpeg);}
+    45%{background-image: url(../images/vietnam4.jpeg);}
+    60%{background-image: url(../images/vietnam5.jpeg);}
+    75%{background-image: url(../images/vietnam6.jpeg);}
+    90%{background-image: url(../images/vietnam7.jpeg);}
     99%{background-image: url(../images/vietnam8.jpeg);}
 }
 .navbar2{
