@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box ;
+}
+.pic img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border:2px solid black;
+}
+.allin{
+    display: flex;
+}
+.cardsround1{
+    display: flex;
+}
+.cardsround2{
+    display: flex;
+    margin-top: 4rem;
+}
+.card_1{
+    display: flex;
+}
+.card_2{
+    display: flex;
+    margin-left: 4rem;
+}
+.card_3{
+    display: flex;
+}
+.card_4{
+    display: flex;
+    margin-left: 4rem;
+}
+.imp{
+    /* margin-left: 10rem;
+    margin-top: 11rem; */
+}
+.bigtext{
+    font-size: 3rem;
+    text-align: right;
+}
+.smalltext{
+    margin-top: 2rem;
+    font-size: 21px;
+    text-align: right;
+}
+
+.lastthing{
+    margin-top: 2rem;
+}
+.lastthing button{
+    height: 3.5rem;
+    width: 15rem;
+    float: right;
+    border: 4px solid blueviolet ;
+    background-color: white;
+}
+.about{
+    /* background-color: burlywood; */
+    margin-left: 4rem;
+    
+}
+.travelexperts{
+    /* background-color: burlywood; */
+    margin: 6rem;
+}
+.theirname{
+    margin: 2rem;
+    margin-top: 4rem;
+}
+.lastthing button:hover{
+    background-color: blueviolet;
+}

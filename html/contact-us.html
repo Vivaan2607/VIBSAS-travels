@@ -18,7 +18,7 @@
 <body>
   
   <div class="container">
-
+    <form data-netlify="true" name="submit">
     <div class="row row-col-2">
       <div class="col-lg-4 col-md-12">
 
@@ -32,7 +32,7 @@
 
         <h3>We'll find the right Travel Expert to plan your vacation.</h3>
 
-        <form>
+        <form name="message" method="post" data-netlify="true">
           <div class="form-group">
 
             <textarea class="message" id="yourmessage" placeholder="Your Message" rows="3"></textarea>
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <form>
+            <form data-netlify="true" method="post" name="name">
 
               <input type="text" class="forms" placeholder="First name">
           </div>
@@ -84,7 +84,7 @@
           </div>
           </form>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <form>
+            <form data-netlify="true" method="post" name="email">
 
               <input type="email" class="forms" placeholder="Email ID">
           </div>
@@ -100,11 +100,13 @@
 <div class="button">
 
 
-        <button id="submit" type="button" class="btn btn-outline-light btn-lg">Submit</button>
+        <button id="submit" type="submit" class="btn btn-outline-light btn-lg">Submit</button>
 </div>
+
   </div>
 
   </div>
+</form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
