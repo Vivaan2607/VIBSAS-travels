@@ -8,21 +8,17 @@ box-sizing: border-box;
 
     
 }
-.footerbg{
-    background-image: url("./images/flow.jpg");
-    padding: 5rem;
-    margin: 0;
-}
+
 
 footer{
-    margin-top: 4rem;margin-bottom: 4rem;margin-left: 4rem;margin-right: 4rem;
+    
     background-color: black;color: white;
 
 }
 
 .inside{
-    margin-left: 3rem;
-    padding-top: 3rem;
+   margin: 0;
+    padding: 6rem;
 }
 .world{margin-top: 1rem;
 margin-left: 1.5rem;}
@@ -54,3 +50,18 @@ margin-left: 0.5rem;}
 
 .getintouch{margin-top: 8.5rem;}
 
+.review-us{
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 25%;
+    border: none;
+    width:8rem;
+
+}
+.review-us a{
+    color: black;
+    text-decoration: none;
+}
+.review-us:hover{
+    background-color:antiquewhite
+}
